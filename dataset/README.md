@@ -1,5 +1,6 @@
 ## List of datasets
 
+### Train set
 1. `train_ziji_feb27.csv`: fill in missing value except `built_year`
 2. `train_ziji_mar26.csv`: fill in `built_year` on top of `train_ziji_feb27.csv`
 3. `ronghua_mar_26.csv`: remove unused columns, bucketize `tenure`
@@ -11,4 +12,6 @@
 > `tenure_years`: number of years in the tenure. If not avaialble, set to 99. Only has two buckets (99, 999)
 > Also, ziji removed `lat, lng, index, bedrooms, tenure`, and renamed `bedrooms_1` to `bedrooms`
 
+### Test set
 6. `test_ziji_mar27.csv`: raw test.csv converted using the same method as training set
+7. `test_yutong.csv`[(here)](https://github.com/StevenShi-23/CS5228-Data-Mining/blob/yutong/test_yutong.csv): merge `test_ziji_mar27.csv` and new distance-related attributes (i.e.,`test_distance_attributes.csv`)
