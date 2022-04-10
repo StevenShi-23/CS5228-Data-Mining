@@ -25,6 +25,7 @@ Our report is accessible [here](CS5228_Report.pdf).
 ├── CS5228_Report.pdf
 ├── EDA
 ├── Preprocessing
+├── GeoDataAugment (code to calculate nearest facilities to augment dataset)
 ├── README.md
 ├── Regression (model and experiment scripts)
 ├── dataset
@@ -62,6 +63,6 @@ Follow `EDA/data_visualisation_ronghua.ipynb`.
 ## Model and Evaluation
 
 1. XGBoost: `Regression/ziji_xgboost_v2.ipynb`
-2. Ridge Regression: `Regression/yutong_rf_0329.ipynb`
-3. Random Forest: `Regression/yutong_rf_0329.ipynb`
+2. Ridge Regression: `Regression/rf_and_ridge.ipynb`
+3. Random Forest: `Regression/rf_and_ridge.ipynb`
 
