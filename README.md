@@ -52,17 +52,17 @@ pip install -r requirements.txt
 
 ## Exploratory Data Analysis
 
-Follow `EDA/data_visualisation_ronghua.ipynb`.
+Follow `EDA/data_visualisation.ipynb`.
 
 ## Data Preprocessing
 
-1. Duplication removal and filling missing values: `Preprocessing/ziji_missing_value_part1.ipynb`
-2. Outlier removal: `Preprocessing/Dataset_Preparation_ronghua.ipynb`
+1. Duplication removal and filling missing values: `Preprocessing/missing_value_part1.ipynb`
+2. Outlier removal: `Preprocessing/Dataset_Preparation.ipynb`
 
 
 ## Model and Evaluation
 
-1. XGBoost: `Regression/ziji_xgboost_v2.ipynb`
+1. XGBoost: `Regression/xgboost_v2.ipynb`
 2. Ridge Regression: `Regression/rf_and_ridge.ipynb`
 3. Random Forest: `Regression/rf_and_ridge.ipynb`
 
