@@ -58,7 +58,7 @@ Follow `EDA/data_visualisation.ipynb`.
 
 1. Duplication removal and filling missing values: `Preprocessing/missing_value_part1.ipynb`
 2. Outlier removal: `Preprocessing/Dataset_Preparation.ipynb`
-
+3. Augment dataset with distance to public facilities: `GeoDataAugment/geovisualization_and_distance.ipynb` 
 
 ## Model and Evaluation
 
